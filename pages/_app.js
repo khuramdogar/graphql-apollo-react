@@ -2,7 +2,6 @@ import App, { Container } from 'next/app';
 import React from 'react';
 import { ApolloProvider } from 'react-apollo';
 import withApollo from '../lib/apollo';
-// import './style.css';
 
 class MyApp extends App {
   render() {

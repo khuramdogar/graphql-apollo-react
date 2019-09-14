@@ -32,10 +32,10 @@ class Home extends Component {
                 <div className="search-bar-container">
                   <div className="seach-bar">
                     <input
-type="text"
-placeholder="Enter keywords e.g Canada, Fashion, Football"
-                            className="search-input-container"
-onChange={this.onChange}
+                      type="text"
+                      placeholder="Enter keywords e.g Canada, Fashion, Football"
+                      className="search-input-container"
+                      onChange={this.onChange}
                     />
                     <button className="search-btn">
                                 Search

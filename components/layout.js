@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { React } from 'react';
+import React from 'react';
 
 const Layout = (props) => (
   <div>
