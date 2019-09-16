@@ -24,9 +24,14 @@ class Home extends Component {
             <div className="main-section-center">
               <div className="main-section-container">
                 <div className="main-heading-lg">
-                        The easiest way to find<br/> 
-                        <span className="tiktok-logo"> Tik Tok 
-                        </span> influencers
+                        The easiest way to find
+                  <br />
+                  <span className="tiktok-logo">
+                    {' '}
+Tik Tok
+                  </span>
+                  {' '}
+influencers
                 </div>
                 <div className="main-heading-sm">
                         Search database of over 1.5M tiktok accounts in seconds

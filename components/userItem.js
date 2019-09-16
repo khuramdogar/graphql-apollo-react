@@ -1,14 +1,12 @@
 import React from 'react';
-import CircleImag1 from '../static/image/Circle-Image-1.svg';
-import CircleImag2 from '../static/image/Circle-Image-2.svg';
-import CircleImag3 from '../static/image/Circle-Image-3.svg';
-import Crownimg from '../static/image/Icon-Crown.svg';
+import Crownimg from '../images/Icon-Crown.svg';
+
 const UserItem = ({ item }) => (
   <div className="report-card">
     <div className="card-report-header">
       <div className="card-profile-photo-container">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDfMPs1-dCr8Na2A8aFw_9oJkgf14-NpJpek0TsFkZZmKc_Q7-" alt='card-profile'  class="card-profile-pic" />
-        <Crownimg className="crown"/>
+        <img src="http://www.girlsdp.com/wp-content/uploads/images/beautiful-heart-photos-for-fb-profile-picture-full-hd.jpg" alt="card-profile" className="card-profile-pic" />
+        <Crownimg className="crown" />
 
       </div>
     </div>
