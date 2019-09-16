@@ -6,46 +6,7 @@
   color:#fff; 
   font-family: 'Barlow', sans-serif;
 }
-.nav-left{
-  flex:0 0 70%;
-  min-width: 400px;
-  justify-content: flex-start;
 
-}
-.nav-right{ 
-  flex:0 0 30%;
-  justify-content: center;
-  
-  min-width: 200px;
-}
-.nav-right-main{
-  flex: 1;
-  
-}
-.nav-left,
-.nav-right{
-  display: flex;
-  align-items: center;
-}
-.nav-brand-customize{
-  flex:0 0 20%;
-  min-width: 100px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.nav-item-customize{
-  margin: 0 20px;
-  height: 19px;	
-   
-  color: #FFFFFF;	
-
-  font-size: 16px;	
-  font-weight: bold;	
-  line-height: 19px;	
-  text-align: center
-}
 .nav-item-button{
   height: 40px;	
   width: 126px;	
@@ -56,7 +17,7 @@
   align-items: center
 }
 .main-section-container{
-  width: 57%;
+  width: 50%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -65,7 +26,7 @@
 .main-heading-lg{
  
   color: #FFFFFF;	
-  font-weight: 700;	
+  font-weight: 800;	
   font-size: 62px;	
   letter-spacing: normal; 
   line-height: 72px;	
@@ -91,10 +52,11 @@
   border: 3px solid #F32855;
   height: 100%;
   border-radius: 5.2px 0 0 5.2px;	
-  flex: 75%;
+  flex:1;
   padding: 0 20px;
   background-color: transparent;
   color: inherit;
+  font-size: 18px;
 }
 .search-input-container::placeholder{
   opacity: 0.7;	
@@ -107,16 +69,23 @@
   outline: none;
 }
 .search-btn{
-  height: 100%;	
-  width: 210.6px;	
+
   border-radius: 0 5.2px 5.2px 0;	
   background-color: #F32855;
-  border: 1px solid transparent;
+  border: 1px solid #F32855;
   flex: 0 0 25%;
   color: #FFFFFF;	
   font-size: 20px;	
   font-weight: 700;	
   line-height: 18px;
+  text-transform: uppercase;
+  margin-left: -2px;
+}
+.search-btn:active{
+  outline: none;
+}
+.search-btn:focus{
+  outline: none;
 }
 .stat-text{
   opacity: 0.6;	
@@ -130,10 +99,11 @@
   height: 114px;
   border-radius: 100%;
   width: 114px;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.35);
 }
 .report-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   transform: translateY(-50%)
 }
 .report-card{
@@ -167,7 +137,8 @@ line-height: 14px;
   font-size: 15px;
   line-height: 24px;
   margin: 16px 0;
-  padding: 0 15px;
+  padding: 0 20px;
+
 }
 .follow-stat-row{
   display: flex;
@@ -176,10 +147,11 @@ line-height: 14px;
 }
 .follow-header{
   color: #2C2C2C;
-  font-weight: 24px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 32px;
   text-align: center;
+
 }
 .follow-bottom{
   opacity: 0.5;	
@@ -221,4 +193,50 @@ line-height: 14px;
   left: 50%;
   top: -57px;
   transform: translateX(-50%);
+}
+.header-nav-container{
+  padding: 32px 0;
+}
+.customize-nav-bar{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-right-main{
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+}
+.nav-left,
+.nav-right{
+  display: flex;
+  align-items: center;
+}
+.nav-item-customize-1{
+  margin-left: 6.9vw;
+}
+.nav-item-customize{
+  margin-left: 4vw;
+  color: #FFFFFF;
+  font-size: 16px;	
+  font-weight: 700;
+  line-height: 19px;
+}
+.tiktok-logo{
+  text-shadow: -1.6px -1.6px 0 #0ff,1.6px 1.6px 0 #f00;
+  font-weight: 800;
+  margin-right: 10px;
+}
+.report-card:nth-child(2){
+  transform: translateY(20px);
+  margin: 0 30px;
+}
+.crown{
+  position: absolute;
+  bottom: 0;
+  left: auto;
+  right: 0px;
 }

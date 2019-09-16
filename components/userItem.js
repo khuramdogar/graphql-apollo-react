@@ -1,14 +1,15 @@
 import React from 'react';
-
+import CircleImag1 from '../static/image/Circle-Image-1.svg';
+import CircleImag2 from '../static/image/Circle-Image-2.svg';
+import CircleImag3 from '../static/image/Circle-Image-3.svg';
+import Crownimg from '../static/image/Icon-Crown.svg';
 const UserItem = ({ item }) => (
   <div className="report-card">
     <div className="card-report-header">
       <div className="card-profile-photo-container">
-        <img
-          src="https://randomuser.me/api/portraits/men/43.jpg"
-          alt="profile"
-          className="card-profile-pic"
-        />
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDfMPs1-dCr8Na2A8aFw_9oJkgf14-NpJpek0TsFkZZmKc_Q7-" alt='card-profile'  class="card-profile-pic" />
+        <Crownimg className="crown"/>
+
       </div>
     </div>
     <div className="card-body-report">
