@@ -22,7 +22,7 @@
     "graphql": "^14.5.5",
     "graphql-react": "^8.3.0",
     "graphql-tag": "^2.10.1",
-    "https-proxy-agent": "^2.2.2",
+    "https-proxy-agent": "^2.2.3",
     "isomorphic-unfetch": "^3.0.0",
     "lodash": "^4.17.15",
     "next": "9.0.5",
